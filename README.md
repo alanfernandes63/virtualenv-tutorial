@@ -7,25 +7,30 @@ operacional, versão do python, e bibliotecas instaladas. Evitando assim uma dor
 para a instalação do virtualenv você deve possuir o python e o pip instalado em sua máquina, irei utilizar o pip3, mas lembrando que você deve utilizar a versão que está instalada em sua máquina, tendo estas duas dependências
 abra o seu terminal e digite o seginte comando para instalar o virtualenv:
 <br>
+<br>
 <code>pip3 install virtualenv</code>
 <br>
 ### Criação da virtualenv
 Ocorrendo tudo certo com a instalação da virtualenv você deve ir na raiz do seu projeto para criar sua virtualenv, estando na raiz o próximo passo é digitar o seguinte comando para a criação do virtualenv:
+<br>
 <br>
 <code>virtualenv nome da virtualenv</code>
 <br>
 ### Ativação da virtualenv
 Para ativar a virtualenv basta colocar o seguinte comando:
 <br>
+<br>
 <code>source nome da sua virtualenv/bin/activate</code>
 <br>
 ### Instalação de dependências na virtualenv
 O processo de instalação de dependências é o mesmo, sendo que a virtualenv deverá estar ativada vou instalar o django a nivel de exemplo, para instalação do django e só executar o seguinte código:
 <br>
+<br>
 <code>pip3 install django</code>
 <br>
 ### Desativando a virtualenv
 Para desativar a virtualenv você precisará estar dentro do diretório do projeto e digitar o seguinte comando:
+<br>
 <br>
 <code>deactivate</code>
 

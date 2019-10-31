@@ -17,12 +17,13 @@ Ocorrendo tudo certo com a instalação da virtualenv você deve ir na raiz do s
 ### Ativação da virtualenv
 Para ativar a virtualenv basta colocar o seguinte comando:
 <br>
+<code>source nome da sua virtualenv/bin/activate</code>
+<br>
 ### Instalação de dependências na virtualenv
 O processo de instalação de dependências é o mesmo, sendo que a virtualenv deverá estar ativada vou instalar o django a nivel de exemplo, para instalação do django e só executar o seguinte código:
 <br>
 <code>pip3 install django</code>
 <br>
-<code>source nome da sua virtualenv/bin/activate</code>
 ### Desativando a virtualenv
 Para desativar a virtualenv você precisará estar dentro do diretório do projeto e digitar o seguinte comando:
 <br>
